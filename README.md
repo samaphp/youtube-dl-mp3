@@ -6,6 +6,13 @@ Downloads videos from YouTube and convert them to mp3.
 
 Just copy the `youtube-dl-mp3` script to somewhere in your `$PATH` (try /usr/local/bin).
 
+
+To install it right away for all UNIX users (Linux, OS X, etc.), type:
+
+    sudo curl -L https://raw.githubusercontent.com/samaphp/youtube-dl-mp3/master/youtube-dl-mp3 -o /usr/local/bin/youtube-dl-mp3
+    sudo chmod a+rx /usr/local/bin/youtube-dl
+
+
 ## Requirements
 
   * [youtube-dl](https://github.com/rg3/youtube-dl)
